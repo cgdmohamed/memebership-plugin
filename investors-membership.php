@@ -11,8 +11,8 @@ Text Domain: investors-membership
 Domain Path: /languages
 */
 
-if ( !function_exists( 'add_action' ) ) {
-	exit;
+if ( ! defined( 'ABSPATH' ) ) {
+	exit; // Exit if accessed directly
 }
 
 //showing activation message
