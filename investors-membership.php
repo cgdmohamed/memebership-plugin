@@ -11,6 +11,10 @@ Text Domain: investors-membership
 Domain Path: /languages
 */
 
+if ( !function_exists( 'add_action' ) ) {
+	exit;
+}
+
 //showing activation message
 class Activation {
 
